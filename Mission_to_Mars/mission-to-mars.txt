@@ -1,0 +1,6 @@
+had to install:
+- splinter
+- bs4
+- webdriver-manager
+- selenium
+- 
