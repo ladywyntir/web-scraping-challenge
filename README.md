@@ -17,6 +17,14 @@ The instructions for this assignment are divided into three parts:
 ### Code Theory
 The work was done on these files in the order they're listed.
 
+**Prerequisites**
+Had to pip install the following before I could successfully run my Jupyter Notebook code:
+* splinter
+* bs4
+* webdriver-manager
+* selenium
+<hr>
+
 **For mission_to_mars.ipynb**
 1. Set up the repo as described
 2. Imported dependencies, including new ones like Splinter and BeautifulSoup.
@@ -25,9 +33,9 @@ The work was done on these files in the order they're listed.
 5. For the Mars Hemispheres, we had to cycle through each link so we used a for loop and then returned to the previous page.
 6. Once all the data was scraped, we quit the browser.
 
-Also noticed that printing out the HTML with .prettify() helped a lot when looking for class names. Below are examples of how I was able to search different tag elements:<br/>
-![Image](./images/html_for_div_class_names.jpg)<br/>
-![Image](./images/html_for_full_image.jpg)<br/>
+Also noticed that printing out the HTML with .prettify() helped a lot when looking for class names. Below are examples of how I was able to search different tag elements:<br/><br/>
+![Image](./images/html_for_div_class_names.jpg)<br/><br/>
+![Image](./images/html_for_full_image.jpg)<br/><br/>
 ![Image](./images/html_for_full_img_button.jpg)<br/>
 
 
